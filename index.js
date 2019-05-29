@@ -5,7 +5,7 @@ function takeANumber (katzDeli, name) {
   return localString;
 }
 
-function nowServing (katzDeliLine) { x
+function nowServing (katzDeliLine) { 
   var localString = katzDeliLine.length > 0 ? "Currently serving " + `${katzDeliLine[0]}` + "." : "There is nobody waiting to be served!"
    katzDeliLine.shift();
    return localString;
